@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW7.Entities
+namespace HW7.Types
 {
-    internal class Sport : Favorites
+    internal enum FoodTypes
     {
-        public bool IsProfessional { get; set; }
+        Persian =1 ,
+        Foreign =2
     }
 }

@@ -8,5 +8,9 @@ namespace HW7.Entities
 {
     internal class Favorites
     {
+        public string Name { get; set; }
+        List<Food> Foods { get; set; } = new List<Food>();
+        List<Sport> Sports { get; set; } = new List<Sport>();
+
     }
 }
